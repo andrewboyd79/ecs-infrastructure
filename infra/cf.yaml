@@ -1,0 +1,20 @@
+---
+# Inline comments allowed
+AWSTemplateFormatVersion: "2010-09-09"
+Description: VPC Creation CloudFormation Template
+Parameters:
+  RepositoryBranch:
+      Description: Repository Branch
+      Type: String
+	VPCStack:
+			Description: Parent VPC Stack
+			Type: String
+			
+Conditions:
+  
+Mappings:
+
+Resources:
+	
+
+Outputs:
